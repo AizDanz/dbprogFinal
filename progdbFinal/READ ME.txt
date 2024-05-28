@@ -1,0 +1,21 @@
+Go new 
+
+Database name (user_management) create
+
+Table name users then go to SQL Uper part
+put this code 
+-------------------------------------
+CREATE DATABASE user_management;
+
+USE user_management;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+--------------------------------------
+done good to go
+
+if not working and error of (user_management) 
+try to change the (user_management) into (user_managementdb)
